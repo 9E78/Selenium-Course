@@ -1,0 +1,13 @@
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\selenium_course.dll
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\selenium_course.pdb
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\nunit.framework.dll
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\WebDriver.dll
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\WebDriver.Support.dll
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\nunit.framework.xml
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\WebDriver.xml
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\WebDriver.Support.xml
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\obj\Debug\selenium_course.csprojResolveAssemblyReference.cache
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\obj\Debug\selenium_course.dll
+c:\users\sgetman\documents\visual studio 2015\Projects\selenium_course\selenium_course\obj\Debug\selenium_course.pdb
