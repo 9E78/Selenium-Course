@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 
 namespace selenium_course
@@ -16,11 +17,12 @@ namespace selenium_course
         public void start()
         {
             driver = new ChromeDriver();
+            // driver = new InternetExplorerDriver();
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
         }
 
         [Test]
-        public void TestMethod1()
+        public void l2t1_GoogleSearch()
         {
             driver.Url = "http://www.google.com";
             driver.FindElement(By.Name("q")).SendKeys("test");
