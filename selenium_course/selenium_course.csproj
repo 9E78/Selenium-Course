@@ -68,6 +68,7 @@
     <Compile Include="l2t1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="l2t3.cs" />
+    <Compile Include="l4t7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
