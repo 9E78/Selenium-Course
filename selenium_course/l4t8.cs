@@ -26,7 +26,9 @@ namespace selenium_course
 
             foreach (IWebElement productItem in driver.FindElements(By.XPath("//li[@class='product column shadow hover-light']")))
             {
-                productItem.FindElement(By.XPath("./a/div/div[contains(@class, 'sticker')]"));                
+                int productStickers = productItem.FindElements(By.XPath("./a/div/div[contains(@class, 'sticker')]")).Count;
+                Assert.AreNotEqual(productStickers, 0, "Product on main page has no sticker");
+                Assert.AreEqual(productStickers, 1, "Product on main page has several stickers");
             }
         }
 
