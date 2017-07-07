@@ -71,6 +71,7 @@
     <Compile Include="l2t3.cs" />
     <Compile Include="l4t7.cs" />
     <Compile Include="l4t8.cs" />
+    <Compile Include="l5t10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
