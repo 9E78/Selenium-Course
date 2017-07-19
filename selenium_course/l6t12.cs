@@ -72,6 +72,7 @@ namespace selenium_course
             driver.FindElement(By.CssSelector("a[href='#tab-prices']")).Click();
             wait.Until(ExpectedConditions.ElementIsVisible(By.Name("purchase_price")));
 
+            driver.FindElement(By.Name("purchase_price")).Clear();
             driver.FindElement(By.Name("purchase_price")).SendKeys("123");
 
             new SelectElement(driver.FindElement(By.Name("purchase_price_currency_code"))).SelectByValue("EUR");
