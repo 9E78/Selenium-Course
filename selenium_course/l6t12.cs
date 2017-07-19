@@ -82,6 +82,10 @@ namespace selenium_course
             driver.FindElement(By.Name("prices[EUR]")).SendKeys("300");
 
             driver.FindElement(By.Name("save")).Click();
+            
+            driver.Url = "http://localhost:100/litecart/admin/?app=catalog&doc=catalog";
+
+            driver.FindElement(By.XPath("//a[contains(text(), 'Cool Duck')]"));
 
         }
 
