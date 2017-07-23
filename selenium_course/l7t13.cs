@@ -8,7 +8,7 @@ using OpenQA.Selenium.Support.UI;
 namespace selenium_course
 {
     [TestFixture]
-    public class AddRemoveProductsToBusket
+    public class AddRemoveProductsToBasket
     {
         private IWebDriver driver;
         private WebDriverWait wait;
@@ -22,7 +22,7 @@ namespace selenium_course
         }
 
         [Test]
-        public void l7t13_AddRemoveProductsToBusket()
+        public void l7t13_AddRemoveProductsToBasket()
         {
             for (int i = 0; i < 3; i++)
             {
@@ -60,8 +60,8 @@ namespace selenium_course
                 else
                     break;
             }
-            string emptyBusketText = driver.FindElement(By.CssSelector("div#checkout-cart-wrapper p em")).Text;
-            StringAssert.AreEqualIgnoringCase(emptyBusketText, "There are no items in your cart.", "Text for empty card is different");
+            string emptyBasketText = driver.FindElement(By.CssSelector("div#checkout-cart-wrapper p em")).Text;
+            StringAssert.AreEqualIgnoringCase(emptyBasketText, "There are no items in your cart.", "Text for empty card is different");
         }
 
         [TearDown]
