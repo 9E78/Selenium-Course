@@ -80,6 +80,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="l7t13.cs" />
+    <Compile Include="l8t14.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
