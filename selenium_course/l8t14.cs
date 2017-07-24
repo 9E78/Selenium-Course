@@ -40,11 +40,7 @@ namespace selenium_course
             {
                 string mainWindowId = driver.CurrentWindowHandle;
                 ICollection<string> oldWindows = driver.WindowHandles;
-
-                foreach (string window in oldWindows)
-                    Console.WriteLine(window);
-                Console.WriteLine("---------------------------------");
-
+                
                 linkIcon.Click();
 
                 string newWindowId = wait.Until<string>((driver) =>
